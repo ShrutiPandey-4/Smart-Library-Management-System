@@ -56,7 +56,7 @@ Developed a Library Management System to manage book records and student details
 
 
 ### Dashboard Page:
-![image](https://user-images.githubusercontent.com/70682152/187031861-42257899-2330-4b27-a118-8edb5e1afa0f.png)
+![image](https://github.com/user-attachments/assets/066948c5-b4e8-4a64-834e-aafba59656f1)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
