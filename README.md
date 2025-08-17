@@ -62,50 +62,49 @@ Developed a Library Management System to manage book records and student details
 </div>
 
 ### Account Management Page:
-![image](https://user-images.githubusercontent.com/70682152/187031895-48d333de-5fda-4988-bc04-4c84c1a3edf2.png)
+![image](https://github.com/user-attachments/assets/69bdab7d-bea6-4220-a13e-e1ed55641cc2)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
 ### Manage Books Page:
-![image](https://user-images.githubusercontent.com/70682152/187031911-ffb69ae7-b6a9-4404-a0a2-8a6e996b1c81.png)
+![image](https://github.com/user-attachments/assets/fa9cf118-dafd-44b5-912b-e103e52b9a46)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
 ### Manage Students Page:
-![image](https://user-images.githubusercontent.com/70682152/187031936-eca77f5c-6a39-4bfd-9532-83c43c7779ae.png)
+![image](https://github.com/user-attachments/assets/c61f9a1a-48d2-49e5-8400-43cb0aa24d94)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
 
 ### Issue Book Page:
-![image](https://user-images.githubusercontent.com/70682152/187031970-87352f93-6478-4240-a44f-bd7b9236f618.png)
+![image](https://github.com/user-attachments/assets/b59f1027-2f37-436c-ac4d-256d7b5b698d)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
 ### Return Book Page:
-![image](https://user-images.githubusercontent.com/70682152/187031997-19c9d22f-dd84-4d70-b669-f226d143362f.png)
+![image](https://github.com/user-attachments/assets/cf9b5070-2f25-4327-ba25-167ae300268e)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
 
 ### View All Records Page:
-![image](https://user-images.githubusercontent.com/70682152/187032018-c9f94e2f-29c3-47a4-a6e3-3f516ee7474c.png)
+![image](https://github.com/user-attachments/assets/437234a0-8e53-468c-bfcc-88647cfa039f)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
 ### About page:
 
-![image](https://user-images.githubusercontent.com/70682152/187032046-18ea97b4-f892-42c0-a01f-c39176fd6dd4.png)
+![image](https://github.com/user-attachments/assets/41b81115-ad3e-4ab8-b805-0b18a0e9b80c")
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
-#### credits: [Unique Developer](https://www.youtube.com/watch?v=v5NednBTtKY&list=PLjrrZBv_CFYQgCFsHTzfIqtypsWF2KBvJ)
 
 
