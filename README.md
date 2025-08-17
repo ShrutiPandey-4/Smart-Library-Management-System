@@ -45,20 +45,11 @@ Developed a Library Management System to manage book records and student details
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
 
-
-## Project Demo:
-
-
-https://user-images.githubusercontent.com/70682152/187031200-7bae1082-a97b-49ef-9bff-898fc482c180.mp4
-<div align="right">
-    <b><a href="#library-management-system">↥ back to top</a></b>
-</div>
-
-
 # User Interface Screenshots:
 
 ### Login Page:
-![image](https://user-images.githubusercontent.com/70682152/187031828-d66aee54-21b5-438b-8069-6ae7acce3e0a.png)
+![image](<img width="1690" height="815" alt="Screenshot 2025-08-17 142156" src="https://github.com/user-attachments/assets/ac2c5ac8-ad97-45bb-b27d-b15b419d1e63" />
+)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
