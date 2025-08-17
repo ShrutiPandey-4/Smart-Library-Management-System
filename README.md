@@ -48,7 +48,7 @@ Developed a Library Management System to manage book records and student details
 # User Interface Screenshots:
 
 ### Login Page:
-![image](<img width="1690" height="815" alt="Screenshot 2025-08-17 142156" src="https://github.com/user-attachments/assets/ac2c5ac8-ad97-45bb-b27d-b15b419d1e63" />
+![image](https://github.com/user-attachments/assets/ac2c5ac8-ad97-45bb-b27d-b15b419d1e63.png
 )
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
