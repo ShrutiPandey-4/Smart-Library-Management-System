@@ -62,7 +62,7 @@ Developed a Library Management System to manage book records and student details
 </div>
 
 ### Account Management Page:
-![image](https://github.com/user-attachments/assets/69bdab7d-bea6-4220-a13e-e1ed55641cc2)
+![image](https://github.com/user-attachments/assets/41b81115-ad3e-4ab8-b805-0b18a0e9b80c)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
@@ -101,7 +101,7 @@ Developed a Library Management System to manage book records and student details
 
 ### About page:
 
-![image](https://github.com/user-attachments/assets/41b81115-ad3e-4ab8-b805-0b18a0e9b80c")
+![image](https://github.com/user-attachments/assets/69bdab7d-bea6-4220-a13e-e1ed55641cc2)
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
