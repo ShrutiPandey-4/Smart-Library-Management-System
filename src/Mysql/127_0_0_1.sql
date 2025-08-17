@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1:3306
--- Generation Time: Aug 27, 2022 at 12:54 PM
--- Server version: 5.7.36
--- PHP Version: 7.4.26
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -45,11 +36,11 @@ CREATE TABLE IF NOT EXISTS `book_details` (
 INSERT INTO `book_details` (`book_id`, `book_name`, `author`, `quantity`) VALUES
 (2, 'Java for everyone', 'Jack', 44),
 (3, 'Learn Python', 'John', 15),
-(4, 'PHP', 'Rose', 15),
+(4, 'DBMS', 'Rose', 15),
 (5, 'HTML', 'Bruce', 49),
 (6, 'CSS', 'Daniel', 0),
-(7, 'Golang programming', 'Jack', 45),
-(8, 'Css Tricks ', 'Jack', 50);
+(7, 'JavaScript', 'Jack', 45),
+(8, 'Computer Networking', 'Aryan', 50);
 
 -- --------------------------------------------------------
 
@@ -75,22 +66,22 @@ CREATE TABLE IF NOT EXISTS `issue_book_details` (
 --
 
 INSERT INTO `issue_book_details` (`id`, `book_id`, `book_name`, `student_id`, `student_name`, `issue_date`, `due_date`, `status`) VALUES
-(11, 3, 'Learn Python', 1, 'Naveen', '2022-08-24', '2022-09-24', 'pending'),
+(11, 3, 'Learn Python', 1, 'Nandani', '2022-08-24', '2022-09-24', 'pending'),
 (9, 2, 'Java for everyone', 2, 'Praveen', '2022-08-23', '2022-09-23', 'returned'),
 (10, 6, 'CSS', 3, 'Jack', '2022-08-23', '2022-09-23', 'pending'),
 (12, 3, 'Learn Python', 4, 'Rose', '2022-09-24', '2022-09-24', 'pending'),
 (13, 2, 'Java for everyone', 4, 'Rose', '2022-07-01', '2022-08-01', 'pending'),
 (14, 3, 'Learn Python', 2, 'Praveen', '2022-08-25', '2022-09-25', 'pending'),
-(15, 4, 'PHP', 2, 'Praveen', '2022-08-25', '2022-09-25', 'pending'),
-(16, 4, 'PHP', 3, 'Jack', '2022-08-25', '2022-09-25', 'pending'),
-(17, 4, 'PHP', 4, 'Rose', '2022-08-25', '2022-09-25', 'pending'),
-(18, 2, 'Java for everyone', 5, 'Mary', '2022-07-20', '2022-08-20', 'pending'),
-(19, 4, 'PHP', 6, 'Iron Man', '2022-07-20', '2022-08-20', 'pending'),
-(20, 2, 'Java for everyone', 6, 'Iron Man', '2022-07-20', '2022-08-20', 'pending'),
-(21, 3, 'Learn Python', 6, 'Iron Man', '2022-07-20', '2022-08-20', 'returned'),
-(22, 5, 'HTML', 6, 'Iron Man', '2022-07-20', '2022-08-20', 'pending'),
+(15, 4, 'DBMS', 2, 'Praveen', '2022-08-25', '2022-09-25', 'pending'),
+(16, 4, 'DBMS', 3, 'Jack', '2022-08-25', '2022-09-25', 'pending'),
+(17, 4, 'DBMS', 4, 'Rose', '2022-08-25', '2022-09-25', 'pending'),
+(18, 2, 'Java for everyone', 5, 'Mary', '2022-07-25', '2022-08-25', 'pending'),
+(19, 4, 'DBMS', 6, 'Iron Man', '2022-07-23', '2022-08-23', 'pending'),
+(20, 2, 'Java for everyone', 6, 'Iron Man', '2022-07-24', '2022-08-24', 'pending'),
+(21, 3, 'Learn Python', 6, 'Iron Man', '2022-07-23', '2022-08-23', 'returned'),
+(22, 5, 'HTML', 6, 'Iron Man', '2022-07-25', '2022-08-25', 'pending'),
 (23, 3, 'Learn Python', 7, 'Captain America', '2022-08-27', '2022-09-27', 'returned'),
-(24, 4, 'PHP', 7, 'Captain America', '2022-08-27', '2022-09-27', 'pending');
+(24, 4, 'DBMS', 7, 'Captain America', '2022-08-27', '2022-09-27', 'pending');
 
 -- --------------------------------------------------------
 
@@ -112,7 +103,7 @@ CREATE TABLE IF NOT EXISTS `student_details` (
 --
 
 INSERT INTO `student_details` (`student_id`, `student_name`, `course`, `branch`) VALUES
-(1, 'Naveen', 'M.Sc', 'Computer Science'),
+(1, 'Nandani', 'M.Sc', 'Computer Science'),
 (2, 'Praveen', 'M.Sc', 'Chemistry'),
 (3, 'Jack', 'M.Sc', 'Physics'),
 (4, 'Rose', 'PHD', 'Computer Science'),
@@ -197,10 +188,10 @@ CREATE TABLE IF NOT EXISTS `exam` (
 --
 
 INSERT INTO `exam` (`examid`, `examname`, `examterm`, `examdate`, `examclass`, `examsection`, `examsubject`) VALUES
-(1, 'Public Exam', 'First Term', '2022-08-02', '1', 'A', 'Tamil'),
+(1, 'Public Exam', 'First Term', '2022-08-02', '1', 'A', 'Hindi'),
 (2, 'Public Exam', 'First Term', '2022-08-03', '1', 'A', 'English'),
 (3, 'Public Exam', 'First Term', '2022-08-04', '1', 'A', 'Maths'),
-(4, 'Public Exam', 'First Term', '2022-08-08', '2', 'A', 'Tamil'),
+(4, 'Public Exam', 'First Term', '2022-08-08', '2', 'A', 'Hindi'),
 (5, 'Public Exam', 'First Term', '2022-08-09', '2', 'A', 'English'),
 (6, 'Public Exam', 'First Term', '2022-08-10', '2', 'A', 'Maths');
 
@@ -225,7 +216,7 @@ CREATE TABLE IF NOT EXISTS `mark` (
 --
 
 INSERT INTO `mark` (`studentid`, `studentname`, `subject`, `class`, `marks`, `term`) VALUES
-(1, 'John', 'Tamil', '1', '458', 'First Term');
+(1, 'John', 'Hindi', '1', '458', 'First Term');
 
 -- --------------------------------------------------------
 
@@ -252,7 +243,7 @@ CREATE TABLE IF NOT EXISTS `student` (
 --
 
 INSERT INTO `student` (`studentid`, `studentname`, `parentname`, `dateofbirth`, `gender`, `studentmobileno`, `studentaddress`, `studentclass`, `studentsection`) VALUES
-(1, 'John', 'Jack', '2001-08-06', 'Male', '9653214780', 'Chennai, India', '1', 'A');
+(1, 'John', 'Jack', '2001-08-06', 'Male', '9653214780', 'Odisha, India', '1', 'A');
 
 -- --------------------------------------------------------
 
@@ -273,7 +264,7 @@ CREATE TABLE IF NOT EXISTS `subject` (
 --
 
 INSERT INTO `subject` (`id`, `subjectcode`, `subjectname`) VALUES
-(1, 'TAM', 'Tamil'),
+(1, 'HIN', 'Hindi'),
 (2, 'ENG', 'English'),
 (3, 'MAT', 'Maths');
 
@@ -300,7 +291,7 @@ CREATE TABLE IF NOT EXISTS `teacher` (
 --
 
 INSERT INTO `teacher` (`id`, `name`, `qualification`, `salary`, `phone`, `email`, `address`) VALUES
-(1, 'Rose', 'M.Tech Computer Science', '500000', '9784563210', 'rose@gmail.com', 'Chennai, India');
+(1, 'Rose', 'M.Tech Computer Science', '500000', '9784563210', 'rose@gmail.com', 'Odisha, India');
 
 -- --------------------------------------------------------
 
@@ -325,10 +316,10 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `phone`, `address`, `uname`, `password`, `utype`) VALUES
-(1, 'Naveenkumar J', '9080965525', 'Vellore, India', '18MIS0395', '1234', 'Admin'),
-(2, 'Praveen', '9846456321', 'Vellore, India', '18MIS001', '1234', 'Student'),
-(3, 'Jack', '9632145874', 'Vellore, India', '101', '1234', 'Teacher'),
-(4, 'Guest', '9874569854', 'Bangalore, India', 'guest', 'guest', 'Guest');
+(1, 'Naveenkumar J', '9080965525', 'Bhubaneswar, India', '18MIS0395', '1234', 'Admin'),
+(2, 'Praveen', '9846456321', 'Bhubaneswar, India', '18MIS001', '1234', 'Student'),
+(3, 'Jack', '9632145874', 'Ranchi, India', '101', '1234', 'Teacher'),
+(4, 'Guest', '9874569854', 'Ranchi, India', 'guest', 'guest', 'Guest');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
