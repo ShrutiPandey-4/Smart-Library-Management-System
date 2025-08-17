@@ -1,4 +1,4 @@
-<h1 align="center" id="library-management-system">Library Management System</h1> 
+<h1 align="center" id="library-management-system">Smart Library Management System</h1> 
 
 - ### Tech Stack used:
 	<center>
@@ -27,8 +27,8 @@
 	</center>
 
 ## About Project:
-A Library Management System  allows you to keep the Library book records, Library student records and manage them when needed. This is a simple java project with a good and interactive-looking GUI. This Project Use MySQL Database for managing all the data that store in the database.The Library Management System Project In Java And MySQL is simple and basic level small project for learning purposes. Also, you can modify this system as per your requirements and develop a perfect advance level project.
-
+Library Management System (Java, MySQL, Swing GUI)
+Developed a Library Management System to manage book records and student details with an interactive Java Swing-based GUI. Implemented CRUD operations for adding, updating, and deleting records while ensuring data persistence using MySQL. Designed the project following OOP principles and integrated database connectivity through JDBC. This project strengthened my understanding of Object-Oriented Programming, Database Management, and GUI development in Java.
 
 ## Available Modules:
 
@@ -44,12 +44,6 @@ A Library Management System  allows you to keep the Library book records, Librar
 <div align="right">
     <b><a href="#library-management-system">↥ back to top</a></b>
 </div>
-
-### Important JAR links:
-
-- [Download all Required JAR files](https://t.me/eagle_programming/13)
-
-
 
 
 ## Project Demo:
